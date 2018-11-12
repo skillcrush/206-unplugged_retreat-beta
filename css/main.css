@@ -134,6 +134,7 @@ h4{
     font-family: 'Poppins', Helvetica, Arial, sans-serif;
     font-weight: 500;
     font-size: 1.125em;
+    line-height: 1.375;
     margin: 0;
 }
 
@@ -368,7 +369,61 @@ footer .social-icons p i{
     margin: 20px 0;
 }
 
+/* ==========================================================================
+   Contact Page
+   ========================================================================== */
+.mission{
+    background-color: #527158;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
 
+.map figure{
+    width: 100%;
+    max-height: 450px;
+}
+
+.map iframe{
+    width: 100%;
+}
+
+.contact-section{
+    background-color: #2a423a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+/* ==========================================================================
+   FAQ Page
+   ========================================================================== */
+.faq{
+    background-color: #527158;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.faq .content-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    margin: 50px 0 0 0;
+}
+
+.faq h2{
+    margin-bottom: 40px;
+    line-height: 1;
+}
+
+.faq-content{
+    margin-bottom: 50px;
+}
 
 /* ==========================================================================
    Helper classes
@@ -589,6 +644,36 @@ footer .social-icons p i{
     footer .copyright{
         width: 100%;
     }
+
+/* ==========================================================================
+   Contact Page
+   ========================================================================== */
+    .mission-content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .mission-content p{
+        width: 40%;
+    }
+
+    .map figure{
+        max-height: 350px;
+    }
+
+/* ==========================================================================
+   FAQ Page
+   ========================================================================== */
+.faq .content-wrapper{
+    justify-content: space-between;
+}
+   
+.faq-content{
+    flex-basis: 40%;
+}
+
+
 }
 
 @media only screen and (min-width: 1200px) {
@@ -636,6 +721,24 @@ footer .social-icons p i{
     .reviews article div{
         width: 42%;
     }
+
+/* ==========================================================================
+   Contact Page
+   ========================================================================== */
+.map figure{
+    max-height: 450px;
+}
+
+/* ==========================================================================
+   FAQ Page
+   ========================================================================== */
+.faq h2{
+    width: 100%;
+}
+
+.faq-content{
+    flex-basis: 35%;
+}
 }
 
 /* ==========================================================================
