@@ -225,7 +225,7 @@ header nav ul li{
 }
 
 .hero-area h1{
-    width: 75%;
+    font-size: 2.25em;
 }
 
 /* Aside */
@@ -275,7 +275,7 @@ aside .form h3{
 }
 
 .features h2{
-    margin: 0 20px 60px 0;
+    margin-bottom: 60px;
 }
 
 .features .features-items{
@@ -305,13 +305,24 @@ footer{
     text-align: center;
 }
 
-.footer h4{
-    margin-bottom: 30px;
+footer h4{
+    margin-bottom: 20px;
+}
+
+footer p{
+    margin: 0;
 }
 
 footer .content-wrapper{
     width: 55%;
     margin: 50px 0 40px 0;
+}
+
+footer .copyright{
+    margin: 20px 0;
+}
+footer .contact{
+    margin-bottom: 50px;
 }
 
 footer .social-icons{
@@ -452,6 +463,10 @@ footer .social-icons p i{
         margin: 100px 0;
     }
     
+    h2{
+        font-size: 2.25em;
+    }
+
     /* Header */
     header{
         justify-content: space-around;
@@ -476,6 +491,12 @@ footer .social-icons p i{
 
     .header-divider{
         display: none;
+    }
+
+    /* Hero Area */
+
+    .hero-area h1{
+        font-size: 3em;
     }
 
     /* Aside */
@@ -521,7 +542,7 @@ footer .social-icons p i{
     }
 
     .reviews h2{
-        width: 65%;
+        width: 90%;
     }
 
     .reviews article figure,
@@ -531,21 +552,38 @@ footer .social-icons p i{
 
     .reviews h3{
         margin: 0;
+        width: 60%;
     }
 
     /* Footer */
     footer .content-wrapper{
-        margin: 100px 0 40px 0;
+        margin: 100px 0;
+        width: 65%;
     }
+    
     .footer-content{
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
 
+    footer .contact{
+        margin-bottom: 0;
+    }
+
+    footer h4{
+        margin-bottom: 40px;
+        font-size: 1.5em;
+    }
+
     footer .contact,
     footer .social{
-        flex: 1 0 50%;
+        /* flex: 1 0 50%; */
+    }
+
+    footer .social-icons{
+        width: 12.5em;
+        justify-content: space-between;
     }
 
     footer .copyright{
@@ -556,6 +594,47 @@ footer .social-icons p i{
 @media only screen and (min-width: 1200px) {
     .content-wrapper{
         max-width: 1200px;
+    }
+
+    h3{
+        font-size: 1.875em;
+    }
+
+    /* Hero */
+    .hero-area h1{
+        font-size: 3.75em;
+        width: 60%;
+    }
+
+    /* Aside */
+    aside .content-wrapper{
+        justify-content: space-around;
+    }
+
+    aside .content-wrapper .form-description,
+    aside .content-wrapper .form{
+        width: 30%;
+    }
+
+    .form-description p{
+        font-size: 1.125em;
+    }
+
+    /* Features */
+    .features h2{
+        width: 70%;
+    }
+    .features article{
+        flex-basis: 33%;
+    }
+
+    .features .features-item-description{
+        width: 40%;
+    }
+
+    /* Reviews */ 
+    .reviews article div{
+        width: 42%;
     }
 }
 
