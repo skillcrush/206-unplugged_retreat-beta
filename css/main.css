@@ -157,8 +157,17 @@ footer{
     align-items: center;
     flex-flow: row wrap;
 }
+
 header{
     padding: 15px 0;
+}
+
+header .content-wrapper{
+    margin:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
 }
 
 header figure{
@@ -248,7 +257,7 @@ input[type=button]{
 }
 
 aside .form{
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 aside .form h3{
@@ -266,7 +275,7 @@ aside .form h3{
 }
 
 .features h2{
-    margin-bottom: 60px;
+    margin: 0 20px 60px 0;
 }
 
 .features .features-items{
@@ -440,9 +449,14 @@ footer .social-icons p i{
     /* General styles */
     .content-wrapper{
         max-width: 640px;
+        margin: 100px 0;
     }
     
     /* Header */
+    header{
+        justify-content: space-around;
+    }
+
     header .content-wrapper{
         display: flex;
         justify-content: space-between;
@@ -460,11 +474,16 @@ footer .social-icons p i{
         justify-content: space-between;
     }
 
+    .header-divider{
+        display: none;
+    }
+
     /* Aside */
     aside .content-wrapper{
         display: flex;
         justify-content: space-between;
         flex-flow: row wrap;
+        margin: 50px 0;
     }
 
     aside .content-wrapper .form-description,
@@ -474,6 +493,10 @@ footer .social-icons p i{
     }
 
     /* Features */
+
+    .features h2{
+        margin: 0 20px 20px 0;
+    }
 
     .features article{
         flex-basis: 50%;
@@ -487,10 +510,18 @@ footer .social-icons p i{
         width: 50%;
     }
 
+    .features i{
+        margin-bottom: 30px;
+    }
+
     /* Reviews */
     .reviews article{
         display: flex;
         justify-content: space-between;
+    }
+
+    .reviews h2{
+        width: 65%;
     }
 
     .reviews article figure,
@@ -503,6 +534,9 @@ footer .social-icons p i{
     }
 
     /* Footer */
+    footer .content-wrapper{
+        margin: 100px 0 40px 0;
+    }
     .footer-content{
         display: flex;
         justify-content: space-between;
@@ -523,13 +557,6 @@ footer .social-icons p i{
     .content-wrapper{
         max-width: 1200px;
     }
-}
-
-@media print,
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 1.25dppx),
-       (min-resolution: 120dpi) {
-    /* Style adjustments for high resolution devices */
 }
 
 /* ==========================================================================
