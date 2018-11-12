@@ -157,30 +157,48 @@ footer{
     align-items: center;
     flex-flow: row wrap;
 }
-
-.content-wrapper{
-    width: 90%;
-    margin: 50px 0;
+header{
+    padding: 15px 0;
 }
 
-header .content-wrapper{
+header figure{
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
     width: 60%;
-    margin: 20px 0;
+}
+
+.header-divider{
+    background: #3a3a3a; 
+    height: 1px;
+    width: 100%;
+    margin: 10px 0 20px 0;
 }
 
 header nav{
     font-size: 1.125em;
     font-weight: 700;
     text-transform: uppercase;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+    width: 60%;
 }
+
 header nav ul{
     display: flex;
     justify-content: space-around;
+    width: 100%;
 }
 
 header nav ul li{
-    display: inline;
     font-size: 1.125em;
+}
+
+.content-wrapper{
+    width: 90%;
+    margin: 50px 0;
 }
 
 
@@ -195,11 +213,9 @@ header nav ul li{
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
-    /* margin-top: 50px; */
 }
 
 .hero-area h1{
-    /* padding-top: 50px; */
     width: 75%;
 }
 
