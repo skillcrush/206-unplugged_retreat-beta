@@ -126,6 +126,7 @@ h2{
     font-family: 'Poppins', Helvetica, Arial, sans-serif;
     font-weight: 500;
     font-size: 1.875em;
+    line-height: 1.375;
     margin: 0;
 }
 
@@ -382,11 +383,19 @@ footer .social-icons p i{
 
 .map figure{
     width: 100%;
-    max-height: 450px;
+    height: 0; 
+    padding-bottom: 93%; 
+    max-width: 100%; 
+    overflow: hidden;
+    position: relative;
 }
 
 .map iframe{
     width: 100%;
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    height: 100%;
 }
 
 .contact-section{
@@ -396,6 +405,21 @@ footer .social-icons p i{
     align-items: center;
     flex-flow: row wrap;
 }
+
+.contact-section h2{
+    margin-bottom: 20px;
+}
+
+
+.contact-content h4{
+    margin-bottom: 20px;
+}
+
+.contact-content p{
+    margin: 0;
+}
+
+
 
 /* ==========================================================================
    FAQ Page
@@ -631,11 +655,6 @@ footer .social-icons p i{
         font-size: 1.5em;
     }
 
-    footer .contact,
-    footer .social{
-        /* flex: 1 0 50%; */
-    }
-
     footer .social-icons{
         width: 12.5em;
         justify-content: space-between;
@@ -648,7 +667,11 @@ footer .social-icons p i{
 /* ==========================================================================
    Contact Page
    ========================================================================== */
-    .mission-content{
+   .mission h2{
+
+   } 
+   
+   .mission-content{
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -659,7 +682,21 @@ footer .social-icons p i{
     }
 
     .map figure{
-        max-height: 350px;
+        padding-bottom: 58.5%;
+    }
+
+    .contact-section .content-wrapper h2{
+        width: 80%;
+    }
+
+    .contact-content{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .contact-content h4{
+        font-size: 1.5em;
     }
 
 /* ==========================================================================
@@ -678,7 +715,7 @@ footer .social-icons p i{
 
 @media only screen and (min-width: 1200px) {
     .content-wrapper{
-        max-width: 1200px;
+        max-width: 960px;
     }
 
     h3{
@@ -726,7 +763,17 @@ footer .social-icons p i{
    Contact Page
    ========================================================================== */
 .map figure{
-    max-height: 450px;
+    padding-bottom: 32.5%;
+}
+
+.mission h2,
+.contact-section .content-wrapper h2{
+    width: 100%;
+    font-size: 3em;
+}
+
+.contact-content h4{
+    font-size: 1.875em;
 }
 
 /* ==========================================================================
