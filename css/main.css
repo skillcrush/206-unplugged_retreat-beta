@@ -435,6 +435,7 @@ input[type=button]{
 
 .faq-content h4{
     line-height: 1.5;
+    font-weight: 700;
 }
 
 /* ==========================================================================
@@ -532,6 +533,12 @@ input[type=button]{
     
     h2{
         font-size: 2.25em;
+        line-height: 3;
+    }
+
+    h3{
+        font-size: 1.5em;
+        line-height: 1.875;
     }
 
     /* Header */
@@ -564,6 +571,7 @@ input[type=button]{
 
     .hero-area h1{
         font-size: 3em;
+        line-height: 1;
     }
 
     /* Aside */
@@ -642,6 +650,10 @@ input[type=button]{
         margin-bottom: 40px;
     }
 
+    footer p{
+        line-height: 1.5;
+    }
+
     footer .social-icons{
         width: 12.5em;
         justify-content: space-between;
@@ -692,6 +704,12 @@ input[type=button]{
     .faq-content{
         flex-basis: 40%;
     }
+
+    .faq h4,
+    .faq p{
+        font-size: .875em;
+        line-height: 1.125;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -699,8 +717,18 @@ input[type=button]{
         max-width: 960px;
     }
 
-    h3{
+    h2{
+        font-size: 2.25em;
+    }
+
+    h3,
+    h4{
         font-size: 1.875em;
+    }
+
+    p{
+        font-size: 1.125em;
+        line-height: 1.5;
     }
 
     /* Hero */
@@ -762,10 +790,17 @@ input[type=button]{
    ========================================================================== */
     .faq h2{
         width: 100%;
+        font-size: 3em;
     }
 
     .faq-content{
         flex-basis: 35%;
+    }
+
+    .faq h4,
+    .faq p{
+        font-size: 1.125em;
+        line-height: 1;
     }
 }
 
