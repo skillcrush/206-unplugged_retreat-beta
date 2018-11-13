@@ -105,7 +105,7 @@ html{
 body{
     font-size: 1em;
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-    color: white;
+    color: #e2e3ed;
     text-align: left;
 }
 
@@ -117,7 +117,7 @@ ol{
 }
 
 a{
-    color: white;
+    color :#e2e3ed;
     text-decoration: none;
 }
 
@@ -306,7 +306,7 @@ input[type=button]{
     font-family: 'Poppins', Helvetica, Arial, sans-serif;
     font-weight: 500;
     font-size: 1.125em;
-    color: white;
+    color: #e2e3ed;
     border: none;
     text-align: center;
     text-transform: uppercase;
