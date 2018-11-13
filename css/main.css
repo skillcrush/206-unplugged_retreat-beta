@@ -138,7 +138,7 @@ h4{
 
 p{
     font-size: .875em;
-    line-height: 1.125;
+    line-height: 1.285;
 }
 
 img{
@@ -434,7 +434,7 @@ input[type=button]{
 }
 
 .faq-content h4{
-    line-height: 1.5;
+    line-height: 1.333;
     font-weight: 700;
 }
 
@@ -533,12 +533,12 @@ input[type=button]{
     
     h2{
         font-size: 2.25em;
-        line-height: 3;
+        line-height: 1.333;
     }
 
     h3{
         font-size: 1.5em;
-        line-height: 1.875;
+        line-height: 1.25;
     }
 
     /* Header */
@@ -572,6 +572,7 @@ input[type=button]{
     .hero-area h1{
         font-size: 3em;
         line-height: 1;
+        margin: 0;
     }
 
     /* Aside */
@@ -625,7 +626,7 @@ input[type=button]{
     }
 
     .reviews h3{
-        width: 60%;
+        width: 75%;
         margin: 0;
     }
 
@@ -651,7 +652,7 @@ input[type=button]{
     }
 
     footer p{
-        line-height: 1.5;
+        line-height: 1.285;
     }
 
     footer .social-icons{
@@ -728,7 +729,7 @@ input[type=button]{
 
     p{
         font-size: 1.125em;
-        line-height: 1.5;
+        line-height: 1.333;
     }
 
     /* Hero */
@@ -757,10 +758,6 @@ input[type=button]{
     }
     .features article{
         flex-basis: 33%;
-    }
-
-    .features .features-item-description{
-        width: 40%;
     }
 
     /* Reviews */ 
