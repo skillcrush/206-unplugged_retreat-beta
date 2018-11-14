@@ -98,11 +98,11 @@ textarea {
    ========================================================================== */
 /* General Styles */
 
-html{
+html {
     font-size: 16px;
 }
 
-body{
+body {
     font-size: 1em;
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     color: #e2e3ed;
@@ -110,18 +110,18 @@ body{
 }
 
 ul,
-ol{
+ol {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-a{
+a {
     color :#e2e3ed;
     text-decoration: none;
 }
 
-h2{
+h2 {
     font-family: 'Poppins', Helvetica, Arial, sans-serif;
     font-weight: 500;
     font-size: 1.875em;
@@ -129,27 +129,27 @@ h2{
 }
 
 h3,
-h4{
+h4 {
     font-family: 'Poppins', Helvetica, Arial, sans-serif;
     font-weight: 500;
     font-size: 1.125em;
     margin: 0 0 20px 0;
 }
 
-p{
+p {
     font-size: .875em;
     line-height: 1.285;
 }
 
-img{
+img {
     width: 100%;
 }
 
-figure{
+figure {
     margin: 0;
 }
 
-.content-wrapper{
+.content-wrapper {
     width: 90%;
     margin: 50px 0;
 }
@@ -157,7 +157,7 @@ figure{
 /* -------------------- Base Header - Footer Styles -------------------- */
 
 header,
-footer{
+footer {
     background-color: #202322;
     display: flex;
     justify-content: center;
@@ -167,11 +167,11 @@ footer{
 
 /* Header styles */
 
-header{
+header {
     padding: 15px 0;
 }
 
-header .content-wrapper{
+header .content-wrapper {
     margin: 0;
     display: flex;
     justify-content: center;
@@ -179,7 +179,7 @@ header .content-wrapper{
     flex-flow: row wrap;
 }
 
-header figure{
+header figure {
     width: 60%;
     display: flex;
     justify-content: center;
@@ -187,14 +187,14 @@ header figure{
     flex-flow: row wrap;
 }
 
-.header-divider{
+.header-divider {
     background: #3a3a3a; 
     height: 1px;
     width: 100%;
     margin: 10px 0 20px 0;
 }
 
-header nav{
+header nav {
     width: 60%;
     font-size: 1.125em;
     font-weight: 700;
@@ -205,41 +205,41 @@ header nav{
     flex-flow: row wrap;
 }
 
-header nav ul{
+header nav ul {
     width: 100%;
     display: flex;
     justify-content: space-around;
 }
 
-header nav ul li{
+header nav ul li {
     font-size: 1.125em;
 }
 
 /* Footer styles */
-footer{
+footer {
     text-align: center;
 }
 
-footer .content-wrapper{
+footer .content-wrapper {
     width: 55%;
     margin: 50px 0 40px 0;
 }
 
-footer p{
+footer p {
     margin: 0;
 }
 
-footer .contact{
+footer .contact {
     margin-bottom: 50px;
 }
 
-footer .social-icons{
+footer .social-icons {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-footer .social-icons p{
+footer .social-icons p {
     background-color: #527158;
     border-radius: 50%;
     width: 40px;
@@ -249,24 +249,24 @@ footer .social-icons p{
     align-items: center;
 }
 
-footer .social-icons p i{
+footer .social-icons p i {
     font-size: 1.3125em;
 }
 
-.footer .social{
+.footer .social {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-footer .copyright{
+footer .copyright {
     margin: 20px 0;
 }
 
 /* -------------------- Mobile Styles - Homepage -------------------- */
 
 /* Hero Area */
-.hero-area{
+.hero-area {
     background: url(../img/unplugged-retreat.jpg);
     background-size: cover;
     background-position: center;
@@ -276,12 +276,12 @@ footer .copyright{
     flex-flow: row wrap;
 }
 
-.hero-area h1{
+.hero-area h1 {
     font-size: 2.25em;
 }
 
 /* Aside */
-aside{
+aside {
     background-color: #527158;
     display: flex;
     justify-content: center;
@@ -293,12 +293,12 @@ aside .form{
     margin-top: 30px;
 }
 
-input[type=text]{
+input[type=text] {
     box-sizing: border-box;
     width: 100%;
 }
 
-input[type=button]{
+input[type=button] {
     width: 100%;
     padding: 20px 0;
     margin-top: 20px;
@@ -313,7 +313,7 @@ input[type=button]{
 }
 
 /* Features */
-.features{
+.features {
     background: url('../img/unplugged-retreat-features.jpg');
     background-size: cover;
     background-position: center;
@@ -322,46 +322,46 @@ input[type=button]{
     flex-flow: row wrap;
 }
 
-.features h2{
+.features h2 {
     margin-bottom: 60px;
 }
 
-.features .features-items{
+.features .features-items {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
 }
 
-.features article{
+.features article {
     width: 55%;
     margin: 30px 0;
 }
 
-.features i{
+.features i {
     font-size: 3.75em;
     margin-bottom: 40px;
 }
 
-.features p{
+.features p {
     text-align: center;
     margin: 0;
 }
 
 /* Reviews */
-.reviews{
+.reviews {
     background-color: #2a423a;
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
 }
 
-.reviews h2{
+.reviews h2 {
     margin-bottom: 40px;
     line-height: 1;
 }
 
-.reviews h3{
+.reviews h3 {
     width: 55%;
     margin: 20px 0;
 }
@@ -369,7 +369,7 @@ input[type=button]{
 /* ==========================================================================
    About Page
    ========================================================================== */
-.mission{
+.mission {
     background-color: #527158;
     display: flex;
     justify-content: center;
@@ -377,7 +377,7 @@ input[type=button]{
     flex-flow: row wrap;
 }
 
-.map figure{
+.map figure {
     width: 100%;
     height: 0; 
     padding-bottom: 93%; 
@@ -385,7 +385,7 @@ input[type=button]{
     position: relative;
 }
 
-.map iframe{
+.map iframe {
     width: 100%;
     height: 100%;
     position: absolute; 
@@ -393,7 +393,7 @@ input[type=button]{
     left: 0; 
 }
 
-.contact-section{
+.contact-section {
     background-color: #2a423a;
     display: flex;
     justify-content: center;
@@ -401,14 +401,14 @@ input[type=button]{
     flex-flow: row wrap;
 }
 
-.contact-content p{
+.contact-content p {
     margin: 0;
 }
 
 /* ==========================================================================
    FAQ Page
    ========================================================================== */
-.faq{
+.faq {
     background-color: #527158;
     display: flex;
     justify-content: center;
@@ -416,7 +416,7 @@ input[type=button]{
     flex-flow: row wrap;
 }
 
-.faq .content-wrapper{
+.faq .content-wrapper {
     margin: 50px 0 0 0;
     display: flex;
     justify-content: center;
@@ -424,16 +424,16 @@ input[type=button]{
     flex-flow: row wrap;
 }
 
-.faq h2{
+.faq h2 {
     margin-bottom: 40px;
     line-height: 1;
 }
 
-.faq-content{
+.faq-content {
     margin-bottom: 50px;
 }
 
-.faq-content h4{
+.faq-content h4 {
     line-height: 1.333;
     font-weight: 700;
 }
