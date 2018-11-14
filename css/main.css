@@ -300,6 +300,8 @@ aside .form{
 input[type=text] {
     box-sizing: border-box;
     width: 100%;
+    color: #2a423a;
+    font-style: italic;
 }
 
 input[type=button] {
