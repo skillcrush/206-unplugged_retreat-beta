@@ -133,7 +133,7 @@ h4 {
     font-family: 'Poppins', Helvetica, Arial, sans-serif;
     font-weight: 500;
     font-size: 1.125em;
-    margin: 0 0 20px 0;
+    margin: 20px 0;
 }
 
 p {
@@ -147,6 +147,10 @@ img {
 
 figure {
     margin: 0;
+}
+
+address{
+    font-style: normal;
 }
 
 .content-wrapper {
@@ -776,6 +780,10 @@ input[type=button] {
     .contact-section .content-wrapper h2 {
         width: 100%;
         font-size: 3em;
+    }
+
+    .contact-section .content-wrapper h2 {
+        margin-bottom: 40px;
     }
 
     .contact-content h4 {
